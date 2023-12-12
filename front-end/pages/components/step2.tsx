@@ -133,7 +133,7 @@ export default function Step2(props:Iprops) {
     const [pageSize] = useState<number>(200); // Default 200 transfer per tx
     const [symbol, setSymbol] = useState<string>('');
     const [tokenContract, setTokenContract] = useState<ethers.Contract | null>();
-    const multiSenderAddress = '0xB0F63d265957462AEa9f8da15C2Ecb122a23Cb60';
+    const multiSenderAddress = '0xda065a418f5777081c3428c562aebb5eccb932bc';
     const [txURL, setTxURL] = useState<string>('');
     const [selected, setselected] = useState<string>('unlimited');
     const [showLoading, setshowLoading] = useState<boolean>(false);
